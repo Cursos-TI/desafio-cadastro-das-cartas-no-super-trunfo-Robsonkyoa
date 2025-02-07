@@ -10,13 +10,13 @@ int main() {
     printf("Digite a Cidade:\n");
     scanf(" %[^\n]s", Cidade); 
 
-    printf("Digite a população (em milhões):\n");
+    printf("Digite a população :\n");
     scanf("%lf", &Populacao);  
 
-    printf("Digite a área (em km²):\n");
+    printf("Digite a área:\n");
     scanf("%lf", &Area);  
 
-    printf("Digite o PIB (em trilhões de USD):\n");
+    printf("Digite o PIB:\n");
     scanf("%lf", &Pib);  
     printf("Digite o número de pontos turísticos:\n");
     scanf("%d", &PontosTuristicos);
@@ -24,9 +24,9 @@ int main() {
     
     printf("\n--- Informações da Cidade ---\n");
     printf("Cidade: %s\n", Cidade);
-    printf("População: %.2f milhões\n", Populacao);
+    printf("População: %.2F\n", Populacao);
     printf("Área: %.2f km²\n", Area);
-    printf("PIB: %.2f trilhões de USD\n", Pib);
+    printf("PIB: %.2f\n", Pib);
     printf("Pontos Turísticos: %d\n", PontosTuristicos);
     
     return 0;
